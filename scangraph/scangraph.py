@@ -2,8 +2,7 @@ import base64
 import os
 import shutil
 import tempfile
-import time
-from pygraphviz import *
+from pygraphviz import AGraph
 import networkx as nx
 
 
@@ -89,7 +88,7 @@ class ScanGraph(object):
 
     @classmethod
     def json_to_dot(cls, scan_json, server_name):
-        edges, red_leaves = ScanGraph.reduce_edges(ScanGraph.edges_from_json(scan_json))
+        edges, red_leaves = ScanGraph.reduce_edges(ScanGraph.edges_from_json(scan_json))  # NOQA
         g = AGraph(directed=True, root=server_name)
         g.add_node(server_name)
         for leaf in red_leaves:
@@ -121,7 +120,8 @@ class ScanGraph(object):
                         standards.append(packed_edge[0])
                     if (edge_color == "red" and
                             ref_id.items()[0][1] not in red_leaves):
-                        red_leaves.append(".".join([ref_id.items()[0][0], ref_id.items()[0][1]]))
+                        red_leaves.append(".".join([ref_id.items()[0][0],
+                                                    ref_id.items()[0][1]]))
                     edges.extend(ScanGraph.detonate_edge(packed_edge))
         for standard in standards:
             # Tie scan modules to covered standard
@@ -162,7 +162,8 @@ class ScanGraph(object):
             elif len(edge) == 2:
                 # It's not a hot/cold mapping if it isn't 3 long
                 continue
-            elif edge[2] == "red" and ScanGraph.tuple_in_list(cold_edge, final):
+            elif edge[2] == "red" and ScanGraph.tuple_in_list(cold_edge,
+                                                              final):
                 # replace black with red
                 final.remove(cold_edge)
             final.append(edge)

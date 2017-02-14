@@ -47,8 +47,9 @@ class TestUnitScanGraph:
 
     def test_scangraph_edges_from_json(self):
         json_str = self.get_scangraph_json()
-        edges = scangraph.ScanGraph.edges_from_json(json_str)
-        assert len(edges) == 189
+        final, red_leaves = scangraph.ScanGraph.edges_from_json(json_str)
+        assert len(final) == 599
+        assert len(red_leaves) == 85
 
     def test_json_to_dot(self):
         json_str = self.get_scangraph_json()
