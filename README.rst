@@ -5,6 +5,18 @@ scan-graph
 Create a PNG file from a list of Halo scan results
 ==================================================
 
+.. image:: https://codeclimate.com/github/cloudpassage-community/scan-graph/badges/gpa.svg
+   :target: https://codeclimate.com/github/cloudpassage-community/scan-graph
+   :alt: Code Climate
+.. image:: https://codeclimate.com/github/cloudpassage-community/scan-graph/badges/coverage.svg
+   :target: https://codeclimate.com/github/cloudpassage-community/scan-graph/coverage
+   :alt: Test Coverage
+.. image:: https://codeclimate.com/github/cloudpassage-community/scan-graph/badges/issue_count.svg
+   :target: https://codeclimate.com/github/cloudpassage-community/scan-graph
+   :alt: Issue Count
+.. image:: https://travis-ci.org/cloudpassage-community/scan-graph.svg?branch=master
+   :target: https://travis-ci.org/cloudpassage-community/scan-graph
+   :alt: Master branch build status
 
 What it is
 ==========
