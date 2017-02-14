@@ -3,6 +3,7 @@ MAINTAINER toolbox@cloudpassage.com
 
 RUN apk add -U \
     gcc==5.3.0-r0 \
+    git==2.8.3-r0 \
     musl-dev==1.1.14-r14 \
     graphviz==2.38.0-r5 \
     graphviz-dev==2.38.0-r5 \
