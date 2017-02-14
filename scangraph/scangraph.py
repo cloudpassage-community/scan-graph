@@ -44,7 +44,6 @@ class ScanGraph(object):
 
         """
         temp_path = tempfile.mkdtemp()
-        print temp_path
         in_dot = os.path.join(temp_path, "infile.dot")
         out_gml = os.path.join(temp_path, "outfile.gml")
         A = AGraph(dotstring)
