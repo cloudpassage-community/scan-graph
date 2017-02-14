@@ -5,3 +5,6 @@ services:
 script: docker build -t scan-graph .
 after_script: docker run -it --rm scan-graph /bin/sh -c "git checkout master; codeclimate-test-reporter
   --token $CODECLIMATE_REPO_TOKEN --debug"
+env:
+  global:
+    secure: PTiS+m3MALvMQkYVKjshj5px4SRuEg+j5CzxGF7JUSDsEvZMHExGLTI90ih4ut4UPARhRXBZjvLP/eQ4iFG8aXR6jkkl7thgqvmVfz2iKzF5WocnBgTXiBd1041Wf4bBKjxCseJxXIBgludUoswdgx7qTuiRnXql7pIWdoHg3bDwDo52/DTGjO81w7OOPn4B8HKxqYBPdeJ3yApsfUa2T4naBF/eCW5HVzRFCkhBX26G7WZwk5lrX6xCEEMym2r+Ob+OwyC5plAqBkswtg94rqkZ/nbnL3ZkHPQDAipq5rmaEgtAX/xLyI0IU6obbcLtTPZ17LcYEcESxA1fayoEofH23H8F5i30qdzSPgbLYeRbOqEIpM/+2j/YRCTp9TBwbzJq7MQgFleHVcon4X/YV3cd+qcCwQ0AE+d4hpXm+y4Enw2nCXodWeLTmsNYslP1M9+7fjLxVKtxODBSe7OZIiZjkVRrNv5g2O9O3/KxvPsxSTo5qNmsdnrLwb71/tZ2SVvPNd8IbZTh500wFPCITOEi22lTNIIgz2P1p2GnEatkX6ThRk5SLaqo8m35lewISu1ZDr/279ubv4CmRElWQm6KEjpPNuk4vW0fV1TTNzpj5zAczsbTL1bwy1IWMuzAek7lzU95OOR7RoBJDqfIPPXAQuCYMCvnOYL5Ve/ZUMs=
