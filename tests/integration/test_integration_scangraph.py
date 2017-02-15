@@ -22,7 +22,7 @@ class TestIntegrationScanGraph:
         return scangraph.ScanGraph(scan_data)
 
     def get_scangraph_json(self):
-        scan_file = os.path.join(fixture_path, "scandetailsoutput.json")
+        scan_file = os.path.join(fixture_path, "scandetails_three.json")
         with open(scan_file, 'r') as s_file:
             scan_data = json.load(s_file)
         return scan_data

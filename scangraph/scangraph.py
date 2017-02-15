@@ -7,23 +7,23 @@ import networkx as nx
 
 
 class ScanGraph(object):
-    def __init__(self, scan_json, layout='circo'):
+    def __init__(self, scan_json, layout='twopi'):
         """Layouts: neato, dot, twopi, circo, fdp, nop"""
         self.scan_json = scan_json
         self.layout = layout
         self.server_name = ScanGraph.server_name_from_scan_json(scan_json)
 
     def render_png(self):
-        return ScanGraph.dot_to_png(ScanGraph.if_list_wrap(self.scan_json,
-                                                           self.server_name),
+        return ScanGraph.dot_to_png(ScanGraph.json_to_dot(self.scan_json,
+                                                          self.server_name),
                                     self.layout)
 
     def render_gml(self):
-        return ScanGraph.dot_to_gml(ScanGraph.if_list_wrap(self.scan_json,
-                                                           self.server_name))
+        return ScanGraph.dot_to_gml(ScanGraph.json_to_dot(self.scan_json,
+                                                          self.server_name))
 
     def render_dot(self):
-        dotstring = ScanGraph.if_list_wrap(self.scan_json, self.server_name)
+        dotstring = ScanGraph.json_to_dot(self.scan_json, self.server_name)
         return base64.b64encode(dotstring)
 
     @classmethod
@@ -34,6 +34,13 @@ class ScanGraph(object):
             target_scan = scan_json
         server_name = target_scan["server_hostname"]
         return server_name
+
+    @classmethod
+    def contains_refids(cls, scan_json):
+        for finding in scan_json["findings"]:
+            if finding["reference_identifiers"] != []:
+                return True
+        return False
 
     @classmethod
     def dot_to_gml(cls, dotstring):
@@ -68,7 +75,7 @@ class ScanGraph(object):
         temp_path = tempfile.mkdtemp()
         outfile = os.path.join(temp_path, "outfile.png")
         g = AGraph(dotstring)
-        g.draw(path=outfile, prog=layout)
+        g.draw(path=outfile, prog=layout, args="-Goverlap=scale")
         with open(outfile, 'r') as pngfile:
             retval = pngfile.read()
         shutil.rmtree(temp_path)
@@ -77,17 +84,26 @@ class ScanGraph(object):
     @classmethod
     def if_list_wrap(cls, scan_json, server_name):
         """If we get a list of scans, process as such"""
-        dots = []
+        edges = []
+        red_leaves = []
         if isinstance(scan_json, list):
             for scan in scan_json:
-                dots.append(ScanGraph.json_to_dot(scan, server_name))
+                if ScanGraph.contains_refids(scan):
+                    e_unreduced = ScanGraph.edges_from_json(scan)
+                    e_tmp, rleaves_tmp = ScanGraph.reduce_edges(e_unreduced)
+                    edges.extend(e_tmp)
+                    red_leaves.extend(rleaves_tmp)
+                else:
+                    continue
         else:
-            dots.append(ScanGraph.json_to_dot(scan_json, server_name))
-        return "\n".join(dots)
+            if ScanGraph.contains_refids(scan_json):
+                e_unreduced = ScanGraph.edges_from_json(scan_json)
+                edges, red_leaves = ScanGraph.reduce_edges(e_unreduced)
+        return edges, red_leaves
 
     @classmethod
     def json_to_dot(cls, scan_json, server_name):
-        edges, red_leaves = ScanGraph.reduce_edges(ScanGraph.edges_from_json(scan_json))  # NOQA
+        edges, red_leaves = ScanGraph.if_list_wrap(scan_json, server_name)
         g = AGraph(directed=True, root=server_name)
         g.add_node(server_name)
         for leaf in red_leaves:
@@ -113,6 +129,8 @@ class ScanGraph(object):
             else:
                 edge_color = "black"
             if "reference_identifiers" in finding:
+                if finding["reference_identifiers"] == []:
+                    continue
                 for ref_id in finding["reference_identifiers"]:
                     packed_edge = ScanGraph.edge_from_refid(ref_id, edge_color)
                     if packed_edge[0] not in standards:
@@ -127,8 +145,8 @@ class ScanGraph(object):
             final.append((module, standard, "black"))
         # Tie hostname to scan module
         final.append((hostname, module, "black"))
-        # final.extend(standards)
-        final.extend(edges)
+        if edges != []:
+            final.extend(edges)
         return final, red_leaves
 
     @classmethod
@@ -149,6 +167,8 @@ class ScanGraph(object):
     def reduce_edges(cls, edges):
         """Remove duplicate edges, ensure that reds persist"""
         final = []
+        if len(edges) < 2:
+            return final
         for edge in edges:
             cold_edge = (edge[0], edge[1], "black")
             hot_edge = (edge[0], edge[1], "red")
@@ -180,4 +200,6 @@ class ScanGraph(object):
                 vein = (parent, present, color)
                 result.append(vein)
                 parent = present
+        else:
+            result.append((parent, str("%s.%s" % (edge[0], edge[1])), color))
         return result

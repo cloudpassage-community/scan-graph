@@ -18,7 +18,7 @@ class TestUnitScanGraph:
         return scangraph.ScanGraph(scan_data)
 
     def get_scangraph_json(self):
-        scan_file = os.path.join(fixture_path, "scandetailsoutput.json")
+        scan_file = os.path.join(fixture_path, "scandetails_three.json")
         with open(scan_file, 'r') as s_file:
             scan_data = json.load(s_file)
         return scan_data
@@ -56,7 +56,12 @@ class TestUnitScanGraph:
         dot = scangraph.ScanGraph.json_to_dot(json_str, "servername")
         assert isinstance(dot, unicode)
 
-    def test_detonate_edge(self):
+    def test_detonate_edge_1(self):
         edge = ("CIS", "1.1.2.3.4", "red")
         detonated = scangraph.ScanGraph.detonate_edge(edge)
         assert len(detonated) == 5
+
+    def test_detonate_edge_2(self):
+        edge = ("CCI", "000169", "red")
+        detonated = scangraph.ScanGraph.detonate_edge(edge)
+        assert len(detonated) == 1
