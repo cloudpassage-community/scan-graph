@@ -1,13 +1,13 @@
 {
   "status": "completed_with_errors",
   "server_hostname": "ip-10-199-17-53",
-  "server_id": "d7986c20ab3801327d0c3c764e109fc9",
+  "server_id": "THIS_IS_AN_ID",
   "analysis_completed_at": "2017-02-09T18:32:32.352Z",
   "ok_findings_count": 72,
-  "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1",
+  "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID",
   "created_at": "2017-02-09T18:31:41.233Z",
   "agent_started_at": "2017-02-09T18:02:39.000Z",
-  "server_url": "https://api.cloudpassage.com/v1/servers/d7986c20ab3801327d0c3c764e109fc9",
+  "server_url": "https://api.cloudpassage.com/v1/servers/THIS_IS_AN_ID",
   "module": "sca",
   "requested_by": "ashmastaflash-cp",
   "completed_at": "2017-02-09T18:32:32.352Z",
@@ -17,12 +17,12 @@
   "policies": [
     {
       "name": "CIS Benchmark for CentOS 6 v2 OCTOBOX",
-      "id": "8135894aeef311e6b49b47307fcaa7bd"
+      "id": "THIS_IS_AN_ID"
     }
   ],
   "analysis_started_at": "2017-02-09T18:32:31.410Z",
   "non_critical_findings_count": 85,
-  "id": "0018491ceef611e6a5643900cf82cfb1",
+  "id": "THIS_IS_AN_ID",
   "findings": [
     {
       "status": "bad",
@@ -31,7 +31,7 @@
           "CIS": "1.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1d7a9aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.2 Ensure separate partition exists for /tmp",
       "critical": false,
@@ -47,7 +47,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1d7a9aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -56,7 +56,7 @@
           "CIS": "1.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1df2b8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.3 Ensure nodev option set on /tmp partition",
       "critical": false,
@@ -72,7 +72,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1df2b8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -81,7 +81,7 @@
           "CIS": "1.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1e490ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.4 Ensure nosuid option set on /tmp partition",
       "critical": false,
@@ -97,7 +97,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1e490ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -106,7 +106,7 @@
           "CIS": "1.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1ea320eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.5 Ensure noexec option set on /tmp partition",
       "critical": false,
@@ -122,7 +122,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1ea320eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -131,7 +131,7 @@
           "CIS": "1.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1eff0aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.6 Ensure separate partition exists for /var",
       "critical": false,
@@ -147,7 +147,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1eff0aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -156,7 +156,7 @@
           "CIS": "1.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1f91f4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.7 Ensure separate partition exists for /var/tmp",
       "critical": false,
@@ -172,7 +172,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1f91f4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -181,7 +181,7 @@
           "CIS": "1.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1ff4beeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.8 Ensure nodev option set on /var/tmp partition",
       "critical": false,
@@ -197,7 +197,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e1ff4beeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -206,7 +206,7 @@
           "CIS": "1.1.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e205b52eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.9 Ensure nosuid option set on /var/tmp partition",
       "critical": false,
@@ -222,7 +222,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e205b52eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -231,7 +231,7 @@
           "CIS": "1.1.10"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e20ce52eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.10 Ensure noexec option set on /var/tmp partition",
       "critical": false,
@@ -247,7 +247,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e20ce52eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -256,7 +256,7 @@
           "CIS": "1.1.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e212348eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.11 Ensure separate partition exists for /var/log",
       "critical": false,
@@ -272,7 +272,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e212348eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -281,7 +281,7 @@
           "CIS": "1.1.12"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e217c12eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.12 Ensure separate partition exists for /var/log/audit",
       "critical": false,
@@ -297,7 +297,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e217c12eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -306,7 +306,7 @@
           "CIS": "1.1.13"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e21d298eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.13 Ensure separate partition exists for /home",
       "critical": false,
@@ -322,7 +322,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e21d298eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -331,7 +331,7 @@
           "CIS": "1.1.14"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e222c5ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.14 Ensure nodev option set on /home partition",
       "critical": false,
@@ -347,7 +347,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e222c5ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -356,7 +356,7 @@
           "CIS": "1.1.15"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e22d1fceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.15 Ensure nodev option set on /dev/shm partition",
       "critical": false,
@@ -372,7 +372,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e22d1fceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -381,7 +381,7 @@
           "CIS": "1.1.16"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e234312eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.16 Ensure nosuid option set on /dev/shm partition",
       "critical": false,
@@ -397,7 +397,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e234312eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -406,7 +406,7 @@
           "CIS": "1.1.17"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e239d1ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.17 Ensure noexec option set on /dev/shm partition",
       "critical": false,
@@ -422,7 +422,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e239d1ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -431,7 +431,7 @@
           "CIS": "1.4.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e27c8ceeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.4.1 Ensure permissions on bootloader config are configured",
       "critical": false,
@@ -464,7 +464,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e27c8ceeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -473,7 +473,7 @@
           "CIS": "1.4.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e282eeaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.4.3 Ensure authentication required for single user mode",
       "critical": false,
@@ -489,7 +489,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e282eeaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -498,7 +498,7 @@
           "CIS": "1.4.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e288da4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.4.4 Ensure interactive boot is not enabled",
       "critical": false,
@@ -514,7 +514,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e288da4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -523,7 +523,7 @@
           "CIS": "1.5.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e2912a6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.5.1 Ensure core dumps are restricted",
       "critical": false,
@@ -550,7 +550,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e2912a6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -559,7 +559,7 @@
           "CIS": "1.7.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e351baaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.2 Ensure local login warning banner is configured properly",
       "critical": false,
@@ -575,7 +575,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e351baaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -584,7 +584,7 @@
           "CIS": "1.7.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e35657eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.3 Ensure remote login warning banner is configured properly",
       "critical": false,
@@ -600,7 +600,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e35657eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -609,7 +609,7 @@
           "CIS": "2.2.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3dd1aaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.2.1.1 Ensure time synchronization is in use",
       "critical": false,
@@ -633,7 +633,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e3dd1aaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -642,7 +642,7 @@
           "CIS": "3.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e466234eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.1.2 Ensure packet redirect sending is disabled",
       "critical": false,
@@ -670,7 +670,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e466234eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -679,7 +679,7 @@
           "CIS": "3.2.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4743f2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.2 Ensure ICMP redirects are not accepted",
       "critical": false,
@@ -707,7 +707,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4743f2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -716,7 +716,7 @@
           "CIS": "3.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e47b40eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.3 Ensure secure ICMP redirects are not accepted",
       "critical": false,
@@ -744,7 +744,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e47b40eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -753,7 +753,7 @@
           "CIS": "3.2.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e483a0aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.4 Ensure suspicious packets are logged",
       "critical": false,
@@ -781,7 +781,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e483a0aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -790,7 +790,7 @@
           "CIS": "3.2.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e491f56eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.7 Ensure Reverse Path Filtering is enabled",
       "critical": false,
@@ -818,7 +818,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e491f56eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -827,7 +827,7 @@
           "CIS": "3.3.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e49f6eceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.3.1 Ensure IPv6 router advertisements are not accepted",
       "critical": false,
@@ -855,7 +855,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e49f6eceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -864,7 +864,7 @@
           "CIS": "3.3.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4a92beeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.3.2 Ensure IPv6 redirects are not accepted",
       "critical": false,
@@ -892,7 +892,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4a92beeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -901,7 +901,7 @@
           "CIS": "3.4.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4b7170eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.4.1 Ensure TCP Wrappers is installed",
       "critical": false,
@@ -916,7 +916,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4b7170eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -925,7 +925,7 @@
           "CIS": "3.4.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4bc918eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.4.3 Ensure /etc/hosts.deny is configured",
       "critical": false,
@@ -942,7 +942,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4bc918eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -951,7 +951,7 @@
           "CIS": "4.1.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e503d7ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.1.2 Ensure system is disabled when audit logs are full",
       "critical": false,
@@ -990,7 +990,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e503d7ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -999,7 +999,7 @@
           "CIS": "4.1.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e508a70eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.1.3 Ensure audit logs are not automatically deleted",
       "critical": false,
@@ -1016,7 +1016,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e508a70eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1025,7 +1025,7 @@
           "CIS": "4.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e522bbeeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.4 Ensure events that modify date and time information are collected",
       "critical": false,
@@ -1081,7 +1081,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e522bbeeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1090,7 +1090,7 @@
           "CIS": "4.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e535764eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.5 Ensure events that modify user/group information are collected",
       "critical": false,
@@ -1146,7 +1146,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e535764eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1155,7 +1155,7 @@
           "CIS": "4.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e54c28eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.6 Ensure events that modify the system's network environment are collected",
       "critical": false,
@@ -1221,7 +1221,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e54c28eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1230,7 +1230,7 @@
           "CIS": "4.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e550c08eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.7 Ensure events that modify the system's Mandatory Access Controls are collected",
       "critical": false,
@@ -1246,7 +1246,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e550c08eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1255,7 +1255,7 @@
           "CIS": "4.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e557b5ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.8 Ensure login and logout events are collected",
       "critical": false,
@@ -1281,7 +1281,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e557b5ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1290,7 +1290,7 @@
           "CIS": "4.1.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e562232eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.9 Ensure session initiation information is collected",
       "critical": false,
@@ -1326,7 +1326,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e562232eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1335,7 +1335,7 @@
           "CIS": "4.1.10"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e575be8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.10 Ensure discretionary access control permission modification events are collected",
       "critical": false,
@@ -1401,7 +1401,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e575be8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1410,7 +1410,7 @@
           "CIS": "4.1.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e58395aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.11 Ensure unsuccessful unauthorized file access attempts are collected",
       "critical": false,
@@ -1456,7 +1456,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e58395aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1465,7 +1465,7 @@
           "CIS": "4.1.13"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e58b7c2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.13 Ensure successful file system mounts are collected",
       "critical": false,
@@ -1491,7 +1491,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e58b7c2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1500,7 +1500,7 @@
           "CIS": "4.1.14"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e59380aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.14 Ensure file deletion events by users are collected",
       "critical": false,
@@ -1526,7 +1526,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e59380aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1535,7 +1535,7 @@
           "CIS": "4.1.15"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e59b3aceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.15 Ensure changes to system administration scope (sudoers) is collected",
       "critical": false,
@@ -1561,7 +1561,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e59b3aceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1570,7 +1570,7 @@
           "CIS": "4.1.16"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e59f768eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.16 Ensure system administrator actions (sudolog) are collected",
       "critical": false,
@@ -1586,7 +1586,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e59f768eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1595,7 +1595,7 @@
           "CIS": "4.1.17"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e5adc5aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.17 Ensure kernel module loading and unloading is collected",
       "critical": false,
@@ -1641,7 +1641,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e5adc5aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1650,7 +1650,7 @@
           "CIS": "4.1.18"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e5b5662eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.18 Ensure the audit configuration is immutable",
       "critical": false,
@@ -1666,7 +1666,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e5b5662eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1675,7 +1675,7 @@
           "CIS": "4.2.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e60e6c2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.1.2 Ensure logging is configured",
       "critical": false,
@@ -1831,7 +1831,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e60e6c2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1840,7 +1840,7 @@
           "CIS": "4.2.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e61459aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.1.3 Ensure rsyslog default file permissions configured",
       "critical": false,
@@ -1856,7 +1856,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e61459aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1865,7 +1865,7 @@
           "CIS": "4.2.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e619590eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.1.4 Ensure rsyslog is configured to send logs to a remote log host",
       "critical": false,
@@ -1881,7 +1881,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e619590eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1890,7 +1890,7 @@
           "CIS": "4.2.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e621f88eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.1.5 Ensure remote rsyslog messages are only accepted on designated log hosts.",
       "critical": false,
@@ -1916,7 +1916,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e621f88eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1925,7 +1925,7 @@
           "CIS": "4.2.2.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e62965ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.2.1 Ensure syslog-ng service is enabled",
       "critical": false,
@@ -1949,7 +1949,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e62965ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -1958,7 +1958,7 @@
           "CIS": "4.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6a8146eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.3 Ensure logrotate is configured",
       "critical": false,
@@ -2024,7 +2024,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6a8146eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2033,7 +2033,7 @@
           "CIS": "5.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6ba080eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.2 Ensure permissions on /etc/crontab are configured",
       "critical": false,
@@ -2066,7 +2066,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6ba080eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2075,7 +2075,7 @@
           "CIS": "5.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6c3414eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.3 Ensure permissions on /etc/cron.hourly are configured",
       "critical": false,
@@ -2108,7 +2108,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6c3414eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2117,7 +2117,7 @@
           "CIS": "5.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6ce81eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.4 Ensure permissions on /etc/cron.daily are configured",
       "critical": false,
@@ -2150,7 +2150,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6ce81eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2159,7 +2159,7 @@
           "CIS": "5.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6d7da6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.5 Ensure permissions on /etc/cron.weekly are configured",
       "critical": false,
@@ -2192,7 +2192,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6d7da6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2201,7 +2201,7 @@
           "CIS": "5.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6e12c0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.6 Ensure permissions on /etc/cron.monthly are configured",
       "critical": false,
@@ -2234,7 +2234,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6e12c0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2243,7 +2243,7 @@
           "CIS": "5.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6eaa96eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.7 Ensure permissions on /etc/cron.d are configured",
       "critical": false,
@@ -2276,7 +2276,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6eaa96eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2285,7 +2285,7 @@
           "CIS": "5.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e705dbeeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.8 Ensure at/cron is restricted to authorized users",
       "critical": false,
@@ -2381,7 +2381,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e705dbeeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2390,7 +2390,7 @@
           "CIS": "5.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e71f340eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.3 Ensure SSH LogLevel is set to INFO",
       "critical": false,
@@ -2407,7 +2407,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e71f340eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2416,7 +2416,7 @@
           "CIS": "5.2.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e725308eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.4 Ensure SSH X11 forwarding is disabled",
       "critical": false,
@@ -2433,7 +2433,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e725308eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2442,7 +2442,7 @@
           "CIS": "5.2.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e72c00eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.5 Ensure SSH MaxAuthTries is set to 4 or less",
       "critical": false,
@@ -2459,7 +2459,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e72c00eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2468,7 +2468,7 @@
           "CIS": "5.2.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7325f8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.6 Ensure SSH IgnoreRhosts is enabled",
       "critical": false,
@@ -2485,7 +2485,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7325f8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2494,7 +2494,7 @@
           "CIS": "5.2.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e738d90eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.7 Ensure SSH HostbasedAuthentication is disabled",
       "critical": false,
@@ -2511,7 +2511,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e738d90eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2520,7 +2520,7 @@
           "CIS": "5.2.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7402c0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.8 Ensure SSH root login is disabled",
       "critical": false,
@@ -2537,7 +2537,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7402c0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2546,7 +2546,7 @@
           "CIS": "5.2.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e74566ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.9 Ensure SSH PermitEmptyPasswords is disabled",
       "critical": false,
@@ -2563,7 +2563,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e74566ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2572,7 +2572,7 @@
           "CIS": "5.2.10"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e74a644eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.10 Ensure SSH PermitUserEnvironment is disabled",
       "critical": false,
@@ -2589,7 +2589,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e74a644eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2598,7 +2598,7 @@
           "CIS": "5.2.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e74f05eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.11 Ensure only approved ciphers are used",
       "critical": false,
@@ -2615,7 +2615,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e74f05eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2624,7 +2624,7 @@
           "CIS": "5.2.12"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e753f0aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.12 Ensure only approved MAC algorithms are used",
       "critical": false,
@@ -2641,7 +2641,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e753f0aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2650,7 +2650,7 @@
           "CIS": "5.2.13"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e75c754eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.13 Ensure SSH Idle Timeout Interval is configured",
       "critical": false,
@@ -2678,7 +2678,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e75c754eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2687,7 +2687,7 @@
           "CIS": "5.2.14"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7615a6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.14 Ensure SSH LoginGraceTime is set to one minute or less",
       "critical": false,
@@ -2704,7 +2704,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7615a6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2713,7 +2713,7 @@
           "CIS": "5.2.15"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e776028eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "5.2.15 Ensure SSH access is limited",
       "critical": false,
@@ -2759,7 +2759,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e776028eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2768,7 +2768,7 @@
           "CIS": "5.2.16"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e77c78eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.16 Ensure SSH warning banner is configured",
       "critical": false,
@@ -2785,7 +2785,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e77c78eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2794,7 +2794,7 @@
           "CIS": "5.3.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e784f24eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.3.1 Ensure password creation requirements are configured",
       "critical": false,
@@ -2820,7 +2820,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e784f24eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2829,7 +2829,7 @@
           "CIS": "5.3.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7a09b8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.3.2 Ensure lockout for failed password attempts is configured",
       "critical": false,
@@ -2915,7 +2915,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7a09b8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2924,7 +2924,7 @@
           "CIS": "5.4.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7afcf6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.1.1 Ensure password expiration is 90 days or less",
       "critical": false,
@@ -2941,7 +2941,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7afcf6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2950,7 +2950,7 @@
           "CIS": "5.4.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7b5674eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.1.2 Ensure minimum days between password changes is 7 or more",
       "critical": false,
@@ -2967,7 +2967,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7b5674eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -2976,7 +2976,7 @@
           "CIS": "5.4.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7c06a0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.1.4 Ensure inactive password lock is 30 days or less",
       "critical": false,
@@ -2993,7 +2993,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7c06a0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -3002,7 +3002,7 @@
           "CIS": "5.4.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7cf132eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.4 Ensure default user umask is 027 or more restrictive",
       "critical": false,
@@ -3028,7 +3028,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7cf132eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -3037,7 +3037,7 @@
           "CIS": "5.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7d4b00eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.6 Ensure access to the su command is restricted",
       "critical": false,
@@ -3053,7 +3053,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7d4b00eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -3062,7 +3062,7 @@
           "CIS": "6.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e80ad40eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.6 Ensure permissions on /etc/passwd- are configured",
       "critical": false,
@@ -3095,7 +3095,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e80ad40eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -3104,7 +3104,7 @@
           "CIS": "5.3.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8c2774eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.3.3 Ensure password reuse is limited",
       "critical": false,
@@ -3130,7 +3130,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8c2774eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "bad",
@@ -3139,7 +3139,7 @@
           "CIS": "1.4.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8e06aceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.4.2 Ensure bootloader password is set",
       "critical": false,
@@ -3155,7 +3155,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8e06aceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3164,7 +3164,7 @@
           "CIS": "1.1.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1a23f4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.1 Ensure mounting of cramfs filesystems is disabled",
       "critical": false,
@@ -3180,7 +3180,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1a23f4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3189,7 +3189,7 @@
           "CIS": "1.1.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1a8a88eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.2 Ensure mounting of freevxfs filesystems is disabled",
       "critical": false,
@@ -3205,7 +3205,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1a8a88eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3214,7 +3214,7 @@
           "CIS": "1.1.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1afccaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.3 Ensure mounting of jffs2 filesystems is disabled",
       "critical": false,
@@ -3230,7 +3230,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1afccaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3239,7 +3239,7 @@
           "CIS": "1.1.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1b8046eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.4 Ensure mounting of hfs filesystems is disabled",
       "critical": false,
@@ -3255,7 +3255,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1b8046eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3264,7 +3264,7 @@
           "CIS": "1.1.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1be0aeeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.5 Ensure mounting of hfsplus filesystems is disabled",
       "critical": false,
@@ -3280,7 +3280,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1be0aeeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3289,7 +3289,7 @@
           "CIS": "1.1.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1c4b20eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.6 Ensure mounting of squashfs filesystems is disabled",
       "critical": false,
@@ -3305,7 +3305,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1c4b20eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3314,7 +3314,7 @@
           "CIS": "1.1.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1cad72eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.7 Ensure mounting of udf filesystems is disabled",
       "critical": false,
@@ -3330,7 +3330,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1cad72eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3339,7 +3339,7 @@
           "CIS": "1.1.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e1cf796eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.1.8 Ensure mounting of FAT filesystems is disabled",
       "critical": false,
@@ -3355,7 +3355,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e1cf796eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3364,7 +3364,7 @@
           "CIS": "1.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e26e670eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.2.3 Ensure gpgcheck is globally activated",
       "critical": false,
@@ -3441,7 +3441,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e26e670eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3450,7 +3450,7 @@
           "CIS": "2.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3890c8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.1.1 Ensure chargen services are not enabled",
       "critical": false,
@@ -3476,7 +3476,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3890c8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3485,7 +3485,7 @@
           "CIS": "2.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3925c4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.1.2 Ensure daytime services are not enabled",
       "critical": false,
@@ -3511,7 +3511,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3925c4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3520,7 +3520,7 @@
           "CIS": "2.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e39c0b0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.1.3 Ensure discard services are not enabled",
       "critical": false,
@@ -3546,7 +3546,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e39c0b0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3555,7 +3555,7 @@
           "CIS": "2.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3a4ad0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.1.4 Ensure echo services are not enabled",
       "critical": false,
@@ -3581,7 +3581,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3a4ad0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3590,7 +3590,7 @@
           "CIS": "2.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3ad40aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "2.1.5 Ensure time services are not enabled",
       "critical": false,
@@ -3616,7 +3616,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3ad40aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3625,7 +3625,7 @@
           "CIS": "2.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3b94b2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.6 Ensure rsh server is not enabled",
       "critical": false,
@@ -3661,7 +3661,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3b94b2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3670,7 +3670,7 @@
           "CIS": "2.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3be58eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.7 Ensure talk server is not enabled",
       "critical": false,
@@ -3686,7 +3686,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3be58eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3695,7 +3695,7 @@
           "CIS": "2.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3c371eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.8 Ensure telnet server is not enabled",
       "critical": false,
@@ -3711,7 +3711,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3c371eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3720,7 +3720,7 @@
           "CIS": "2.1.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3c915aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.9 Ensure tftp server is not enabled",
       "critical": false,
@@ -3736,7 +3736,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3c915aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3745,7 +3745,7 @@
           "CIS": "2.2.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3e678ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.1.3 Ensure chrony is configured",
       "critical": false,
@@ -3771,7 +3771,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3e678ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3780,7 +3780,7 @@
           "CIS": "3.3.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4b23d2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.3.3 Ensure IPv6 is disabled",
       "critical": false,
@@ -3796,7 +3796,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4b23d2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3805,7 +3805,7 @@
           "CIS": "3.5.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4da81eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.5.1 Ensure DCCP is disabled",
       "critical": false,
@@ -3821,7 +3821,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4da81eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3830,7 +3830,7 @@
           "CIS": "3.5.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4e1524eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.5.2 Ensure SCTP is disabled",
       "critical": false,
@@ -3846,7 +3846,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4e1524eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3855,7 +3855,7 @@
           "CIS": "3.5.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4e8ce8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.5.3 Ensure RDS is disabled",
       "critical": false,
@@ -3871,7 +3871,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4e8ce8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3880,7 +3880,7 @@
           "CIS": "3.5.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4efb4ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.5.4 Ensure TIPC is disabled",
       "critical": false,
@@ -3896,7 +3896,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4efb4ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -3905,7 +3905,7 @@
           "CIS": "4.2.2.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e66da00eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.2.2 Ensure logging is configured",
       "critical": false,
@@ -4081,7 +4081,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e66da00eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -4090,7 +4090,7 @@
           "CIS": "4.2.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6730d6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.2.3 Ensure syslog-ng default file permissions configured",
       "critical": false,
@@ -4106,7 +4106,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e6730d6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -4115,7 +4115,7 @@
           "CIS": "4.2.2.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e67acdceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.2.4 Ensure syslog-ng is configured to send logs to a remote log host",
       "critical": false,
@@ -4141,7 +4141,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e67acdceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -4150,7 +4150,7 @@
           "CIS": "4.2.2.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e68658ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.2.5 Ensure remote syslog-ng messages are only accepted on designated log hosts",
       "critical": false,
@@ -4186,7 +4186,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e68658ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -4195,7 +4195,7 @@
           "CIS": "2.2.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8d9686eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.1.2 Ensure ntp is configured",
       "critical": false,
@@ -4241,7 +4241,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e8d9686eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "indeterminate",
@@ -4250,7 +4250,7 @@
           "CIS": "1.7.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8fe684eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.2 Ensure GDM login banner is configured",
       "critical": false,
@@ -4316,7 +4316,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e8fe684eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4325,7 +4325,7 @@
           "CIS": "1.1.21"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e23f8a2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.21 Ensure sticky bit is set on all world-writable directories",
       "critical": false,
@@ -4342,7 +4342,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e23f8a2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4351,7 +4351,7 @@
           "CIS": "1.1.22"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e24d4d4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.1.22 Disable Automounting",
       "critical": false,
@@ -4375,7 +4375,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e24d4d4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4384,7 +4384,7 @@
           "CIS": "1.5.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e2f0c2eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.5.3 Ensure address space layout randomization (ASLR) is enabled",
       "critical": false,
@@ -4401,7 +4401,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e2f0c2eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4410,7 +4410,7 @@
           "CIS": "1.5.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e30be66eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.5.4 Ensure prelink is disabled",
       "critical": false,
@@ -4425,7 +4425,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e30be66eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4434,7 +4434,7 @@
           "CIS": "1.6.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e320c1ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.1.1 Ensure SELinux is not disabled in bootloader configuration",
       "critical": false,
@@ -4460,7 +4460,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e320c1ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4469,7 +4469,7 @@
           "CIS": "1.6.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e328c28eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.1.2 Ensure the SELinux state is enforcing",
       "critical": false,
@@ -4486,7 +4486,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e328c28eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4495,7 +4495,7 @@
           "CIS": "1.6.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e331710eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.1.3 Ensure SELinux policy is configured",
       "critical": false,
@@ -4512,7 +4512,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e331710eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4521,7 +4521,7 @@
           "CIS": "1.6.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e33c8d6eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.1.4 Ensure SETroubleshoot is not installed",
       "critical": false,
@@ -4536,7 +4536,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e33c8d6eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4545,7 +4545,7 @@
           "CIS": "1.6.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e341ac0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.1.5 Ensure the MCS Translation Service (mcstrans) is not installed",
       "critical": false,
@@ -4560,7 +4560,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e341ac0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4569,7 +4569,7 @@
           "CIS": "1.6.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3459c2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.6.2 Ensure SELinux is installed",
       "critical": false,
@@ -4584,7 +4584,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e3459c2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4593,7 +4593,7 @@
           "CIS": "1.7.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e34d028eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.1 Ensure message of the day is configured properly",
       "critical": false,
@@ -4609,7 +4609,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e34d028eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4618,7 +4618,7 @@
           "CIS": "1.7.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e363486eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.4 Ensure permissions on /etc/motd are configured",
       "critical": false,
@@ -4660,7 +4660,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e363486eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4669,7 +4669,7 @@
           "CIS": "1.7.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e370834eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.5 Ensure permissions on /etc/issue are configured",
       "critical": false,
@@ -4711,7 +4711,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e370834eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4720,7 +4720,7 @@
           "CIS": "1.7.1.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e37e646eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "1.7.1.6 Ensure permissions on /etc/issue.net are configured",
       "critical": false,
@@ -4762,7 +4762,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e37e646eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4771,7 +4771,7 @@
           "CIS": "2.1.10"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3cdfcaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.10 Ensure rsync service is not enabled",
       "critical": false,
@@ -4787,7 +4787,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e3cdfcaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4796,7 +4796,7 @@
           "CIS": "2.1.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3d5130eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.1.11 Ensure xinetd is not enabled",
       "critical": false,
@@ -4820,7 +4820,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3d5130eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4829,7 +4829,7 @@
           "CIS": "2.2.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3eb192eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.2 Ensure X Window System is not installed",
       "critical": false,
@@ -4844,7 +4844,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e3eb192eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4853,7 +4853,7 @@
           "CIS": "2.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3f2064eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.3 Ensure Avahi Server is not enabled",
       "critical": false,
@@ -4877,7 +4877,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3f2064eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4886,7 +4886,7 @@
           "CIS": "2.2.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3f8644eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.4 Ensure CUPS is not enabled",
       "critical": false,
@@ -4910,7 +4910,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3f8644eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4919,7 +4919,7 @@
           "CIS": "2.2.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e3fe58aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.5 Ensure DHCP Server is not enabled",
       "critical": false,
@@ -4943,7 +4943,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e3fe58aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4952,7 +4952,7 @@
           "CIS": "2.2.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e404368eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.6 Ensure LDAP server is not enabled",
       "critical": false,
@@ -4976,7 +4976,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e404368eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -4985,7 +4985,7 @@
           "CIS": "2.2.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e40ee94eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.7 Ensure NFS and RPC are not enabled",
       "critical": false,
@@ -5027,7 +5027,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e40ee94eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5036,7 +5036,7 @@
           "CIS": "2.2.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e414e3eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.8 Ensure DNS Server is not enabled",
       "critical": false,
@@ -5060,7 +5060,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e414e3eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5069,7 +5069,7 @@
           "CIS": "2.2.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e41abeaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.9 Ensure FTP Server is not enabled",
       "critical": false,
@@ -5093,7 +5093,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e41abeaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5102,7 +5102,7 @@
           "CIS": "2.2.10"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e420caceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.10 Ensure HTTP server is not enabled",
       "critical": false,
@@ -5126,7 +5126,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e420caceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5135,7 +5135,7 @@
           "CIS": "2.2.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e426b34eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.11 Ensure IMAP and POP3 server is not enabled",
       "critical": false,
@@ -5159,7 +5159,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e426b34eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5168,7 +5168,7 @@
           "CIS": "2.2.12"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e42c9e4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.12 Ensure Samba is not enabled",
       "critical": false,
@@ -5192,7 +5192,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e42c9e4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5201,7 +5201,7 @@
           "CIS": "2.2.13"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4329f2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.13 Ensure HTTP Proxy Server is not enabled",
       "critical": false,
@@ -5225,7 +5225,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e4329f2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5234,7 +5234,7 @@
           "CIS": "2.2.14"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e438974eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.14 Ensure SNMP Server is not enabled",
       "critical": false,
@@ -5258,7 +5258,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e438974eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5267,7 +5267,7 @@
           "CIS": "2.2.15"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e43e586eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.15 Ensure mail transfer agent is configured for local-only mode",
       "critical": false,
@@ -5283,7 +5283,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e43e586eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5292,7 +5292,7 @@
           "CIS": "2.2.16"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e444738eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.2.16 Ensure NIS Server is not enabled",
       "critical": false,
@@ -5316,7 +5316,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e444738eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5325,7 +5325,7 @@
           "CIS": "2.3.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e448f7ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.3.1 Ensure NIS Client is not installed",
       "critical": false,
@@ -5340,7 +5340,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e448f7ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5349,7 +5349,7 @@
           "CIS": "2.3.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e44f0c0eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.3.2 Ensure rsh client is not installed",
       "critical": false,
@@ -5364,7 +5364,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e44f0c0eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5373,7 +5373,7 @@
           "CIS": "2.3.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e452e78eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.3.3 Ensure talk client is not installed",
       "critical": false,
@@ -5388,7 +5388,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e452e78eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5397,7 +5397,7 @@
           "CIS": "2.3.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e456adceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.3.4 Ensure telnet client is not installed",
       "critical": false,
@@ -5412,7 +5412,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e456adceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5421,7 +5421,7 @@
           "CIS": "2.3.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e45a628eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "2.3.5 Ensure LDAP client is not installed",
       "critical": false,
@@ -5436,7 +5436,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e45a628eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5445,7 +5445,7 @@
           "CIS": "3.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e45f4aceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.1.1 Ensure IP forwarding is disabled",
       "critical": false,
@@ -5462,7 +5462,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e45f4aceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5471,7 +5471,7 @@
           "CIS": "3.2.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e46d476eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.1 Ensure source routed packets are not accepted",
       "critical": false,
@@ -5499,7 +5499,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e46d476eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5508,7 +5508,7 @@
           "CIS": "3.2.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4876aaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.5 Ensure broadcast ICMP requests are ignored",
       "critical": false,
@@ -5525,7 +5525,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4876aaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5534,7 +5534,7 @@
           "CIS": "3.2.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e48b8b8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.6 Ensure bogus ICMP responses are ignored",
       "critical": false,
@@ -5551,7 +5551,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e48b8b8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5560,7 +5560,7 @@
           "CIS": "3.2.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e495f48eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.2.8 Ensure TCP SYN Cookies is enabled",
       "critical": false,
@@ -5577,7 +5577,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e495f48eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5586,7 +5586,7 @@
           "CIS": "3.4.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4c7034eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.4.4 Ensure permissions on /etc/hosts.allow are configured",
       "critical": false,
@@ -5619,7 +5619,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4c7034eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5628,7 +5628,7 @@
           "CIS": "3.4.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4d245ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.4.5 Ensure permissions on /etc/hosts.deny are configured",
       "critical": false,
@@ -5661,7 +5661,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4d245ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5670,7 +5670,7 @@
           "CIS": "3.6.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4f45caeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.6.1 Ensure iptables is installed",
       "critical": false,
@@ -5685,7 +5685,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4f45caeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5694,7 +5694,7 @@
           "CIS": "4.1.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e4f9246eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.1.1 Ensure audit log storage size is configured",
       "critical": false,
@@ -5710,7 +5710,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e4f9246eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5719,7 +5719,7 @@
           "CIS": "4.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e50f38eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.1.2 Ensure auditd service is enabled",
       "critical": false,
@@ -5743,7 +5743,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e50f38eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5752,7 +5752,7 @@
           "CIS": "4.2.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e5bbbaceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "4.2.1.1 Ensure rsyslog Service is enabled",
       "critical": false,
@@ -5776,7 +5776,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e5bbbaceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5785,7 +5785,7 @@
           "CIS": "4.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e68f2c2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "OR",
       "rule_name": "4.2.3 Ensure rsyslog or syslog-ng is installed",
       "critical": false,
@@ -5809,7 +5809,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e68f2c2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5818,7 +5818,7 @@
           "CIS": "5.1.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e6af914eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.1.1 Ensure cron daemon is enabled",
       "critical": false,
@@ -5842,7 +5842,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e6af914eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5851,7 +5851,7 @@
           "CIS": "5.2.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e710a8eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.1 Ensure permissions on /etc/ssh/sshd_config are configured",
       "critical": false,
@@ -5884,7 +5884,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e710a8eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5893,7 +5893,7 @@
           "CIS": "5.2.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7192ceeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.2.2 Ensure SSH Protocol is set to 2",
       "critical": false,
@@ -5910,7 +5910,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7192ceeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5919,7 +5919,7 @@
           "CIS": "5.3.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7a94aaeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.3.4 Ensure password hashing algorithm is SHA-512",
       "critical": false,
@@ -5945,7 +5945,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7a94aaeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5954,7 +5954,7 @@
           "CIS": "5.4.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7baf3eeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.1.3 Ensure password expiration warning days is 7 or more",
       "critical": false,
@@ -5971,7 +5971,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7baf3eeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -5980,7 +5980,7 @@
           "CIS": "5.4.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7c6500eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "5.4.3 Ensure default group for the root account is GID 0",
       "critical": false,
@@ -5996,7 +5996,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7c6500eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6005,7 +6005,7 @@
           "CIS": "6.1.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7e0176eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.2 Ensure permissions on /etc/passwd are configured",
       "critical": false,
@@ -6038,7 +6038,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7e0176eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6047,7 +6047,7 @@
           "CIS": "6.1.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7eace8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.3 Ensure permissions on /etc/shadow are configured",
       "critical": false,
@@ -6080,7 +6080,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7eace8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6089,7 +6089,7 @@
           "CIS": "6.1.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7f55bceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.4 Ensure permissions on /etc/group are configured",
       "critical": false,
@@ -6122,7 +6122,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7f55bceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6131,7 +6131,7 @@
           "CIS": "6.1.5"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e7ffe40eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.5 Ensure permissions on /etc/gshadow are configured",
       "critical": false,
@@ -6164,7 +6164,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e7ffe40eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6173,7 +6173,7 @@
           "CIS": "6.1.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e815ee8eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.7 Ensure permissions on /etc/shadow- are configured",
       "critical": false,
@@ -6206,7 +6206,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e815ee8eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6215,7 +6215,7 @@
           "CIS": "6.1.8"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8208deeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.8 Ensure permissions on /etc/group- are configured",
       "critical": false,
@@ -6248,7 +6248,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8208deeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6257,7 +6257,7 @@
           "CIS": "6.1.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e82bf36eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.1.9 Ensure permissions on /etc/gshadow- are configured",
       "critical": false,
@@ -6290,7 +6290,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e82bf36eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6299,7 +6299,7 @@
           "CIS": "6.2.1"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e85584aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.1 Ensure password fields are not empty",
       "critical": false,
@@ -6476,7 +6476,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e85584aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6485,7 +6485,7 @@
           "CIS": "6.2.2"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e85e828eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.2 Ensure no legacy \"+\" entries exist in /etc/passwd",
       "critical": false,
@@ -6501,7 +6501,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e85e828eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6510,7 +6510,7 @@
           "CIS": "6.2.3"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8648feeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.3 Ensure no legacy \"+\" entries exist in /etc/shadow",
       "critical": false,
@@ -6526,7 +6526,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8648feeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6535,7 +6535,7 @@
           "CIS": "6.2.4"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8696eceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.4 Ensure no legacy \"+\" entries exist in /etc/group",
       "critical": false,
@@ -6551,7 +6551,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8696eceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6560,7 +6560,7 @@
           "CIS": "6.2.6"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e86f9fceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.6 Ensure root PATH Integrity",
       "critical": false,
@@ -6593,7 +6593,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e86f9fceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6602,7 +6602,7 @@
           "CIS": "6.2.9"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e874826eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.9 Ensure users own their home directories",
       "critical": false,
@@ -6618,7 +6618,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e874826eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6627,7 +6627,7 @@
           "CIS": "6.2.11"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e883de4eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.11 Ensure no users have .forward files",
       "critical": false,
@@ -6693,7 +6693,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e883de4eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6702,7 +6702,7 @@
           "CIS": "6.2.12"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e89495aeef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.12 Ensure no users have .netrc files",
       "critical": false,
@@ -6768,7 +6768,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e89495aeef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6777,7 +6777,7 @@
           "CIS": "6.2.14"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8a514ceef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.14 Ensure no users have .rhosts files",
       "critical": false,
@@ -6843,7 +6843,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8a514ceef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6852,7 +6852,7 @@
           "CIS": "6.2.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e8b6334eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "6.2.7 Ensure all users' home directories exist",
       "critical": false,
@@ -6908,7 +6908,7 @@
           "scan_status": "ok"
         }
       ],
-      "id": "1e8b6334eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     },
     {
       "status": "good",
@@ -6917,7 +6917,7 @@
           "CIS": "3.7"
         }
       ],
-      "url": "https://api.cloudpassage.com/v1/scans/0018491ceef611e6a5643900cf82cfb1/findings/1e905db2eef611e6b9bd2da1702b1428",
+      "url": "https://api.cloudpassage.com/v1/scans/THIS_IS_AN_ID/findings/THIS_IS_AN_ID",
       "rule_operator": "AND",
       "rule_name": "3.7 Ensure wireless interfaces are disabled",
       "critical": false,
@@ -6932,7 +6932,7 @@
           "scan_status": "not_found"
         }
       ],
-      "id": "1e905db2eef611e6b9bd2da1702b1428"
+      "id": "THIS_IS_AN_ID"
     }
   ]
 }
