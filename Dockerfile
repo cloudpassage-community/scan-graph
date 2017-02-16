@@ -22,8 +22,9 @@ RUN pip install \
     pytest-flake8 \
     codeclimate-test-reporter==0.2.0
 
+RUN pip install \
+    pygraphviz==1.4rc1 --install-option="--include-path=/usr/include/graphviz" --install-option="--library-path=/usr/lib/graphviz/"
+
 RUN pip install -e .
 
-RUN py.test -v --cov-report term-missing --cov=scangraph
-
-RUN python generate_test.py
+RUN py.test -v --cov-report term-missing --cov=scangraph tests/
