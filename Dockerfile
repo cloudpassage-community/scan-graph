@@ -1,16 +1,16 @@
-FROM alpine:3.4
+FROM ubuntu:17.04
 MAINTAINER toolbox@cloudpassage.com
 
-RUN apk add -U \
-    gcc==5.3.0-r0 \
-    git==2.8.3-r0 \
-    musl-dev==1.1.14-r14 \
-    graphviz==2.38.0-r5 \
-    graphviz-dev==2.38.0-r5 \
-    linux-headers==4.4.6-r1 \
-    python==2.7.12-r0 \
-    python-dev==2.7.12-r0 \
-    py-pip==8.1.2-r0
+RUN apt-get update && \
+    apt-get install -y \
+    gcc==4:6.2.1-1ubuntu1 \
+    git==1:2.10.2-3 \
+    graphviz==2.38.0-16ubuntu1 \
+    graphviz-dev==2.38.0-16ubuntu1 \
+    linux-headers-generic==4.9.0.15.19 \
+    python==2.7.11-2 \
+    python-dev==2.7.11-2 \
+    python-pip==9.0.1-2
 
 COPY ./ /app/
 
@@ -28,3 +28,5 @@ RUN pip install \
 RUN pip install -e .
 
 RUN py.test -v --cov-report term-missing --cov=scangraph tests/
+
+RUN python ./generate_test.py
